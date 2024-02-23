@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.plal.trainapp.TrainBookingControllerTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2024-02-23T11:12:29" hostname="PLALJDVTCS3" time="1.034">
+  <properties/>
+  <testcase name="testShowBookTicket()" classname="com.plal.trainapp.TrainBookingControllerTests" time="1.028"/>
+  <testcase name="testBookTicket()" classname="com.plal.trainapp.TrainBookingControllerTests" time="0.005"/>
+  <system-out><![CDATA[16:42:27.066 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.plal.trainapp.TrainBookingControllerTests]: TrainBookingControllerTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+16:42:27.168 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.plal.trainapp.TrainappApplication for test class com.plal.trainapp.TrainBookingControllerTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.1.9)
+
+2024-02-23T16:42:27.755+05:30  INFO 39316 --- [    Test worker] c.p.t.TrainBookingControllerTests        : Starting TrainBookingControllerTests using Java 17.0.7 with PID 39316 (started by plal in C:\TestProject\trainapp)
+2024-02-23T16:42:27.756+05:30  INFO 39316 --- [    Test worker] c.p.t.TrainBookingControllerTests        : No active profile set, falling back to 1 default profile: "default"
+2024-02-23T16:42:28.542+05:30  INFO 39316 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2024-02-23T16:42:28.550+05:30  INFO 39316 --- [    Test worker] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-02-23T16:42:28.550+05:30  INFO 39316 --- [    Test worker] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-02-23T16:42:28.622+05:30  INFO 39316 --- [    Test worker] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-02-23T16:42:28.624+05:30  INFO 39316 --- [    Test worker] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 847 ms
+2024-02-23T16:42:29.016+05:30  INFO 39316 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 63751 (http) with context path ''
+2024-02-23T16:42:29.023+05:30  INFO 39316 --- [    Test worker] c.p.t.TrainBookingControllerTests        : Started TrainBookingControllerTests in 1.488 seconds (process running for 2.855)
+2024-02-23T16:42:29.968+05:30  INFO 39316 --- [o-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-02-23T16:42:29.969+05:30  INFO 39316 --- [o-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-02-23T16:42:29.969+05:30  INFO 39316 --- [o-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
